@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <%- include('../layouts/head'); %>
+        
+    </head>
+
+    <body class="container" style="background-color: rgb(109, 22, 48);">
+        
+        <header>
+            <%- include('../layouts/header'); %>
+        </header>
+
+        <main>
+            <div class="jumbotron">
+                <h1>You are looking at this page on <%= hostname %>.</h1>
+                <h1>This is great, application works ! Click on About Tab to load the other page. The pages are divided in four parts head, header, body, footer. The body of every page will change according to page/data requested.</h1>
+                <h1>Welcome to templating using EJS.</h1>
+            </div>
+
+        </main>
+
+        <footer>
+            <%- include('../layouts/footer'); %>
+        </footer>
+
+    </body>
+
+</html>
